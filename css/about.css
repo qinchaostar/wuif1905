@@ -1,0 +1,48 @@
+@import "index.css";
+article {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    margin: 20px auto;background: #ffffff;
+
+}
+.about{
+    overflow: hidden;
+    padding: 20px 40px;
+}
+.box {
+    display: block;
+    /*margin: 50px 40px;*/
+    padding: 20px 0;
+}
+.about .box .picture img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+. h3 {
+    margin: 10px 0 10px;
+    font-size: 18px;
+
+}
+.about .box p{
+    color: #666;
+    margin:10px 0;
+}
+.about .title h2{
+    margin: 20px 0;
+    font-size: 18px;
+    width: 120px;
+    clear: both;
+    background-size: 40px;
+    border-bottom: #000 1px dashed;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.about .title .dubai{
+    margin-bottom: 15px;
+    display: inline-block;
+}
