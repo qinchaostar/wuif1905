@@ -831,8 +831,12 @@ img {
 
 
 .bottom{
-    width: 900px;
-    background: #e9eaed;
+
+    width: 1200px;
+    height: 698px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    position: relative;
 }
 .bottom .bottomLeft{
     background: #ffffff;
@@ -841,7 +845,7 @@ img {
     margin-bottom: 20px;
     overflow: hidden;
     width: 860px;
-    margin-left: 160px;
+    /*margin-left: 160px;*/
     margin-top: 20px ;
 }
 .tit1 {
@@ -886,14 +890,12 @@ img {
 .tuijian{
     float: right;
     width: 283px;
-    /*margin-left: 1080px;*/
     background: #ffffff;
-    margin-top: -808px;
     height: 731px;
-    margin-right: 158px;
-    /*position: absolute ;*/
-    /*left: -3px;*/
-    /*right: 10px;*/
+    /*margin-right: 158px;*/
+    position: absolute ;
+    top: -95px;
+    right:0;
     border-radius: 3px;
 }
 .tuijian  .ztj {
