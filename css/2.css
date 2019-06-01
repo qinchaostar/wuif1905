@@ -1,0 +1,276 @@
+.lbox {
+    width: 72%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.text img {
+    width: 600px;
+    height: 642px;
+    margin: 0 15%;
+}
+.text .pri2 {
+    width: 606px;
+    height: 403px;
+    margin: 0 15%;
+}
+.rbox {
+    width: 23.5%;
+    float: right;
+    overflow: hidden;
+
+}
+.rbox .mainRight {
+    width: 282px;
+    height: 391px;
+    float: right;
+    background: #fff;
+}
+
+.rbox .mainRight .tit {
+    width: 284px;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+    color: #333333;
+    font-size: 15px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.rbox .mainRight .tit::before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 130px;
+    bottom: -1px;
+    background: #333333;
+    transition: all .5s ease-in;
+}
+
+
+.rbox .mainRight .photo {
+    width: 240px;
+    height: 110px;
+    background: #fbfffd;
+    position: relative;
+    margin-top: 71px;
+    margin-left: 20px;
+}
+
+
+.rbox .mainRight .photo li {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    overflow: hidden;
+    position: relative;
+}
+
+.rbox .mainRight .photo li a img {
+    transition: all .5s ease-out .1s;
+}
+
+.rbox .mainRight .photo li:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+
+.rbox .mainRight .photo li p {
+    text-align: center;
+    width: 150px;
+    height: 48px;
+    padding: 40px 40px;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+}
+
+.rbox .mainRight div .upd {
+    padding-top: 20px;
+
+    width: 240px;
+    margin-left: 20px;
+
+}
+
+.rbox .mainRight .upd li {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #f6f6f6;
+    position: relative
+
+}
+
+.rbox .mainRight .upd li p {
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.rbox .mainRight .upd li i {
+    display: block;
+    width: 16px;
+    height: 16px;
+    /*background: #ff6600;*/
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    position: relative;
+    font-style: normal;
+}
+
+.rbox .mainRight .upd i::before {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 9px;
+    /*color: #0c8b61;*/
+    line-height: 16px;
+    width: 16px;
+    text-align: center;
+}
+
+.mainRight .upd li:nth-child(1) i::before {
+    content: '1';
+    background: #ff6600;
+}
+
+.mainRight .upd li:nth-child(2) i::before {
+    content: '2';
+    background: #ff6600;
+}
+
+.mainRight .upd li:nth-child(3) i::before {
+    content: '3';
+    background: #ff6600;
+}
+
+.mainRight .upd li:nth-child(4) i::before {
+    content: '4';
+    background: #b1b1b1b1;
+}
+.tuijian {
+    float: right;
+    width: 283px;
+    background: #ffffff;
+    height: 300px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.tuijian .ztj {
+    width: 284px;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+    color: #333333;
+    font-size: 15px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.tuijian .ztj:hover::before {
+    width: 90px;
+}
+
+.tuijian .ztj::before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    top: 49px;
+    bottom: -1px;
+    background: #333333;
+    transition: all .20s ease-in;
+}
+
+.tuijian .ztjphoto {
+    width: 240px;
+    height: 110px;
+    background: #ffffff;
+    position: relative;
+    margin-top: 71px;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+.tuijian .ztjphoto li {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+}
+
+.tuijian .ztjphoto li p {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    padding: 0 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-height: 22px;
+}
+
+.tuijian .tuijianList {
+    width: 242px;
+    height: 500px;
+    padding: 20px;
+}
+
+.tuijian .tuijianList ul {
+    overflow: hidden;
+    margin: 0 0 10px;
+    height: 60px;
+    width: 242px;
+    background: #ffffff;
+
+}
+
+.tuijian .tuijianList ul li p {
+    margin-top: -50px;
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.tuijian .tuijianList ul li img {
+    height: 60px;
+    width: 70px;
+    transition: all .5s ease-out .1s;
+
+}
+
+.tuijian .tuijianList ul li:hover img {
+    transform: scale(1.2, 1.2);
+}

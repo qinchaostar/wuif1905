@@ -151,3 +151,21 @@ article {
     margin-right: 10px;
     color: #000;
 }
+.rbox {
+    width: 23.5%;
+    float: right;
+    overflow: hidden;
+
+}
+
+.text .pri3 {
+    width: 500px;
+    height: 333px;
+    margin: 0 15%;
+}
+.text .pri4 {
+    width: 517px;
+    height: 131px;
+    margin: 0 15%;
+}
+
