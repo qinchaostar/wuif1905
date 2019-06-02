@@ -911,7 +911,7 @@ img {
     height: 698px;
     margin: 0 auto;
     /*overflow: hidden;*/
-    /*position: relative;*/
+    position: relative;
 }
 
 .bottom .bottomLeft {
@@ -923,7 +923,7 @@ img {
     width: 860px;
     /*margin-left: 160px;*/
     margin-top: 20px;
-    /*position: relative;*/
+    position: relative;
 }
 
 .tit1 {
