@@ -163,13 +163,13 @@ img {
     float: left;
     border-radius: 50%;
     margin-left: 14px;
-    transition: all ease 0.5s;
+    /*transition: all ease 0.5s;*/
+}
+.btnList   > .sun{
+    display: block;
+    background: #79ff48;
 }
 
-/*.btnList > li.sun {*/
-/*    display: block;*/
-/*    background: red;*/
-/*}*/
 
 .btnList li:hover {
     color: #02fde4;
